@@ -1,11 +1,11 @@
-# ProgressImageLoader
+# PreImageLoader
 It downloads an image from the internet using Glide and displays a progress bar on the screen until the image is loaded. All settings can be customized.
 
 Usage:
 ```xml
 <ImageView
     ...
-    android:download="https://www.ibb.com/1111"
+    android:downloadUrl="https://www.ibb.com/1111"
     .../>
 ```
 If you want to change the progress bar style use `ProgressBarBuilder`.
